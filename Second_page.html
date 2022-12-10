@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet"href="node_modules/bootstrap/dist/css/bootstrap.css">
+    <link rel="stylesheet"href="external.css">
+    <title>Second Page</title>
+</head>
+<body>
+    <script src="node_modules/jquery/dist/jqery.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+    <nav class="navbar navbar-expand-sm navbar-light bg-light">
+        <a class="navbar-brand" href="Second_page.html">WebPage</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" 
+        aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav">
+                <li class="nav-item active">
+                    <a class="nav-link" href="home.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="Second_page.html">Super-fun Quiz</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="container-fluid"
+    <div class="container-fluid">
+        <div class="row">
+            <form>
+                <div class="col-lg">
+                    What is your full name?<br>
+                <input type="text" name="FullName" placeholder="Full Name"><br>    
+                How excited are you to take this quiz?<br>
+                <input type="radio" name="one" value="one">Extremely<br>
+                <input type="radio" name="two" value="two">Very<br>
+                <input type="radio" name="three" value="three">A lot<br>
+                    What is yoir height in centimeters?<br>
+                <input type="text" name="height" placeholder="___cm"><br>
+                    What is your deepest, darkest, most awful secret?<br>
+                <input type="text" name="secret" placeholder="Your secret"><br>
+                    What was the middle name of your great-grandfather?<br>
+                <input type="text" name="MiddleName" placeholder="You really know that?"><br>
+                <input type="submit" value="submit">
+                </div>
+                
+            </form>
+        </div>
+    </div>
+  <!--I can't seem to figure out how to create differnt columns in the same row when it
+     comes to a form. I tried creating different columns in the form to make the 
+     content come up side by side. I also tried remaining in the same div and creating 
+     a second column outside the form, but everything I tried just appeared on the next 
+     row.-->
+
+</body>
+</html>

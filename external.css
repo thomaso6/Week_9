@@ -1,0 +1,24 @@
+table{
+    border-style: solid;
+    border-color: black;
+    margin: 40px;
+    
+}
+/*I can't seem to solve the issue above where the margin is only present on 
+the left side of the screen and not the right */
+.title{
+    color: gray;
+    font-size: 100px;
+    text-align: center;
+}
+.text-30{
+   color:darkgray;
+   font-size: 30px; 
+}
+.box-in{
+    border-style: solid;
+    border-color: gray;
+}
+.make-text-light{
+    color: lightgray;
+}
